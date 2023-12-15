@@ -1,2 +1,5 @@
 git rebase <commit id> 
 # removes all commits and also removes the file changes
+
+git rebase <commit id> --hard 
+# strongly removes all the history behind the commit id
