@@ -1,3 +1,4 @@
 this is second develop filegit 
 
-testing git revert command
+testing git revert commandgit add .
+
