@@ -1,1 +1,5 @@
-Hi Created New Branch called develop
+Hi Created New Branch called develop\
+ne need to make few dummy commits for learning 
+git reset 
+git checkout
+git revert
