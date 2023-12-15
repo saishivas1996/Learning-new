@@ -1,0 +1,2 @@
+git rebase <commit id> 
+# removes all commits and also removes the file changes
