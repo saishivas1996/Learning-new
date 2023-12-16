@@ -1,5 +1,12 @@
-git rebase <commit id> 
-# removes all commits and also removes the file changes
+git reset <commit id> --hard 
+# removes all commits and also removes the file changes like will go to old commit point
 
-git rebase <commit id> --hard 
-# strongly removes all the history behind the commit 
+git revert <commit id> 
+# particular commit files or changes will removed and makes new commit
+
+git rebase -i HEAD~3 
+# from head commit n0:3 we need to pick 3rd commit and rest we need to change it as "s" then 
+commits will get deleted and make new commit
+
+git rebase master develop
+#changes from master will gets into develop
